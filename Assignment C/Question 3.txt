@@ -1,0 +1,32 @@
+package cg.feb23.demo;
+
+public class Assinment_C {
+	public static void main(String[] args) {
+int a = 12;
+		
+if(a==1)
+{
+	System.out.println("Biggest odd number smaller than given number does not exist");
+	System.out.println("Smallest even number greater than given number is 2");
+			
+}
+else
+{
+	if(a%2==0)
+	{
+		int x=a-1;
+		int y=a+2;
+		System.out.println("Biggest odd number smaller than given number is "+x);
+		System.out.println("Smallest even number greater than given number is "+y);
+	}
+	else
+	{
+		int x=a-2;
+		int y=a+1;
+		System.out.println("Biggest odd number smaller than given number is "+x);
+		System.out.println("Smallest even number greater than given number is "+y);
+	}
+}
+
+}
+}

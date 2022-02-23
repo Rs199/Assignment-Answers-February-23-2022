@@ -1,0 +1,14 @@
+package com.cg.feb22.demo;
+public class MulTabl{
+public static void main(String[] args) {
+
+	int a = 22 , b =11, t ;
+		  
+ 	t = a;
+	a = b ;
+	b = t;
+	System.out.println(+ a + " " + b);
+
+		
+}
+}

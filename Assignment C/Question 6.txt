@@ -1,0 +1,24 @@
+package com.cg.feb22.demo;
+
+public class sumandproduct {
+	public static void main(String[] args) {
+		long input = 1111;
+		long n = input, sum, product = 1, remainder;
+		for (sum = 0; n != 0; n /= 10) {
+			sum += n % 10;
+		}
+		System.out.println("Sum of digits of a number is " + sum);
+
+		long temp = input;
+		while (temp != 0) {
+			remainder = temp % 10;
+			sum = sum + remainder;
+			product = product * remainder;
+			temp = temp / 10;
+		}
+
+		System.out.println("Product of digits of a number is " + product);
+
+	}
+
+}

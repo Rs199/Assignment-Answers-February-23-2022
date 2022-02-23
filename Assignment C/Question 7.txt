@@ -1,0 +1,16 @@
+package cg.feb23.demo;
+
+public class Assinment_C {
+	public static void main(String[] args) {
+int a = 4;
+		
+int res = 1;
+		
+for(int i=res;i<=a;i++)
+{
+	res*=i;
+}
+System.out.println(res);
+
+}
+}

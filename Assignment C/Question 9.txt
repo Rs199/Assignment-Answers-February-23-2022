@@ -1,0 +1,33 @@
+package cg.feb23.demo;
+
+public class Assinment_C {
+	public static void main(String[] args) {
+int a = 10;
+		
+int b=1;
+int c=1;
+	    
+if(a == 1)System.out.println(b);
+else if(a==2)
+{
+	System.out.print(b+" "+c);
+}
+	    
+else
+{
+	System.out.print(b+" "+c+" ");
+	for(int i=3;i<=a;i++)
+	{
+		int x=b+c;
+	    	System.out.print(x+" ");
+	    	b=c;
+	    	c=x;
+	    		
+	    		
+	}
+	    	
+	    	
+}
+
+}
+}

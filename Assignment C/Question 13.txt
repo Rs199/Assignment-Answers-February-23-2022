@@ -1,0 +1,31 @@
+package cg.feb23.demo;
+
+public class Assinment_C {
+	public static void main(String[] args) {
+int a = 30;
+		
+int mnth=1;
+int flag=0;
+while(flag==0)
+{
+	int days;
+	if(mnth==1 || mnth==3 || mnth==5 || mnth==7 || mnth==8 || mnth==10 || mnth==12)days=31;
+	else if(mnth==2)days=28;
+	else days=30;
+			
+	for(int i=1;i<=days;i++)
+	{
+		a--;
+		if(a==0)
+		{
+			int x=mnth - 1;
+			System.out.println(x+" months and "+i+" days.");
+			flag++;break;
+					
+		}
+	}
+	mnth++;
+}
+
+}
+}

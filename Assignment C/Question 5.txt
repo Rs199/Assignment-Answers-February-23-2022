@@ -1,0 +1,14 @@
+package com.cg.feb22.demo;
+public class message {
+	public static void main (String[] args)
+	{
+	int marks=75;
+	if(marks>=80)
+		 System.out.println("Congratulations");
+		 else if(marks<=80 & marks>=50)
+		 System.out.println("Good");	
+		 else
+			 System.out.println("fail");
+	}
+
+}
